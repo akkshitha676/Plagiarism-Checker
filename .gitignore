@@ -1,0 +1,10 @@
+.DS_Store
+.vscode/
+*.o
+*.out
+*.gch
+main
+a.out
+match_submissions
+plagiarism_checker
+output.txt
