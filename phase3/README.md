@@ -1,10 +1,36 @@
-# Phase 3 Plagiarism Checker
+# Phase 3 – Final Plagiarism Detection System
 
-We have provided the plagiarism checkers for you. Copy-paste any files from phase 1 to use them.
-The plagiarism checkers include those of teams:
-- Solution (sample, by us TAs)
-- Team 23B0999\_23B1006
-- Team 23b0924\_23b1032\_23b1055
-- Team 23B0946\_23B0918\_23B1002
-- Team 23B1001\_23B1024\_23B1071
-- Team 23b0940\_23b1029\_23b0903
+## Overview
+
+Phase 3 contains the final implementation of the plagiarism checker. Building upon the previous phases, this version integrates tokenization, preprocessing, and multiple plagiarism detection strategies into a complete detection pipeline.
+
+## Components
+
+| File | Description |
+|------|-------------|
+| `main.cpp` | Entry point of the plagiarism checker |
+| `tokenizer.*` | Tokenization and preprocessing of source code |
+| `checker_zero.*` | Plagiarism detection strategy 0 |
+| `checker_one.*` | Plagiarism detection strategy 1 |
+| `checker_two.*` | Plagiarism detection strategy 2 |
+| `checker_three.*` | Plagiarism detection strategy 3 |
+| `checker_four.*` | Plagiarism detection strategy 4 |
+| `checker_five.*` | Plagiarism detection strategy 5 |
+
+## Building
+
+```bash
+make
+```
+
+## Running
+
+```bash
+./main
+```
+
+The executable name may vary depending on the Makefile configuration.
+
+## Notes
+
+This phase represents the final iteration of the plagiarism checker developed during the CS293 Data Structures and Algorithms Laboratory at IIT Bombay.
